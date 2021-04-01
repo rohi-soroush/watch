@@ -1,0 +1,30 @@
+
+
+:root{
+    --p-color: coral;
+    
+}
+
+
+
+body{
+    /* background-color: var(--p-color); */
+    color: black;
+    /* text-shadow: 3px 3px 10px black; */
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+
+}
+
+#particles-js{
+    background-color: firebrick;
+    height: 80vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.p{
+    display: inline-block;
+}
